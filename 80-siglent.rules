@@ -1,0 +1,6 @@
+SUBSYSTEM=="usb", ATTRS{idVendor}=="f4ec", GROUP="plugdev", MODE="0660" SYMLINK+="siglent%n"
+
+# Product specific rules.
+# SUBSYSTEM=="usb", ATTRS{idVendor}=="f4ec", ATTRS{idProduct}=="ee3a", GROUP="plugdev", MODE="0660" SYMLINK+="siglent%n"
+# SUBSYSTEM=="usb", ATTRS{idVendor}=="f4ec", ATTRS{idProduct}=="1103", GROUP="plugdev", MODE="0660" SYMLINK+="siglent%n"
+
